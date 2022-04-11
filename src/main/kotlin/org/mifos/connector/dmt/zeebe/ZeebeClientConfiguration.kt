@@ -13,6 +13,7 @@ class ZeebeClientConfiguration {
 
     @Value("\${zeebe.client.max-execution-threads}")
     private val zeebeClientMaxThreads = 0
+
     @Bean
     fun setup(): ZeebeClient {
         return ZeebeClient.newClientBuilder()

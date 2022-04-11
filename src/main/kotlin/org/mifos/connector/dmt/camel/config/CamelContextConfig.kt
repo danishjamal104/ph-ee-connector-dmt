@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration
 class CamelContextConfig {
 
     @Value("\${camel.server-port}")
-    private val serverPort = 0
+    private lateinit var serverPort: Number
 
     @Bean
     fun contextConfiguration(): CamelContextConfiguration {
@@ -25,7 +25,7 @@ class CamelContextConfig {
                 camelContext.restConfiguration = rest
                 rest.component = "undertow"
                 rest.producerComponent = "undertow"
-                rest.port = serverPort
+                rest.port = serverPort.toInt()
                 rest.bindingMode = RestConfiguration.RestBindingMode.json
                 rest.dataFormatProperties = HashMap()
                 rest.dataFormatProperties["prettyPrint"] = "true"
