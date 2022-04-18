@@ -1,4 +1,4 @@
-package org.mifos.connector.dmt.zeebe.worker
+package io.fynarfin.connector.dmt.zeebe.worker
 
 sealed class Message(val messageName: String) {
     object SenderInfo: Message("sender_info")

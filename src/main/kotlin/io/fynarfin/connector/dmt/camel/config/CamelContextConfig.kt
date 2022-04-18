@@ -1,4 +1,4 @@
-package org.mifos.connector.dmt.camel.config
+package io.fynarfin.connector.dmt.camel.config
 
 import org.apache.camel.CamelContext
 import org.apache.camel.spi.RestConfiguration

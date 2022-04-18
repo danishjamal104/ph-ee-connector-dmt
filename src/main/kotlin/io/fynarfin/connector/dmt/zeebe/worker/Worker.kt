@@ -1,4 +1,4 @@
-package org.mifos.connector.dmt.zeebe.worker
+package io.fynarfin.connector.dmt.zeebe.worker
 
 sealed class Worker(val id: String) {
     object SenderLookup: Worker("sender-lookup")

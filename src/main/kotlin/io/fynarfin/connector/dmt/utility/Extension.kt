@@ -1,4 +1,4 @@
-package org.mifos.connector.dmt.utility
+package io.fynarfin.connector.dmt.utility
 
 fun String.getCameDirectEndpoint(): String {
     return "direct:${this}"

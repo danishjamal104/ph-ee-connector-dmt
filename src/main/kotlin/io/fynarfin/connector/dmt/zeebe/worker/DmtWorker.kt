@@ -1,10 +1,10 @@
-package org.mifos.connector.dmt.zeebe.worker
+package io.fynarfin.connector.dmt.zeebe.worker
 
 import org.apache.camel.CamelContext
 import org.apache.camel.Exchange
 import org.apache.camel.ProducerTemplate
 import org.apache.camel.support.DefaultExchange
-import org.mifos.connector.dmt.utility.getCameDirectEndpoint
+import io.fynarfin.connector.dmt.utility.getCameDirectEndpoint
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Component
 import javax.annotation.PostConstruct

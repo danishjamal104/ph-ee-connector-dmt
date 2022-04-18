@@ -1,4 +1,4 @@
-package org.mifos.connector.dmt
+package io.fynarfin.connector.dmt
 
 import com.fasterxml.jackson.annotation.JsonInclude
 import com.fasterxml.jackson.databind.DeserializationFeature

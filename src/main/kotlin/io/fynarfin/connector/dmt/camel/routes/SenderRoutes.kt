@@ -1,9 +1,9 @@
-package org.mifos.connector.dmt.camel.routes
+package io.fynarfin.connector.dmt.camel.routes
 
 import org.apache.camel.LoggingLevel
 import org.apache.camel.builder.RouteBuilder
-import org.mifos.connector.dmt.utility.getCameDirectEndpoint
-import org.mifos.connector.dmt.zeebe.worker.Worker
+import io.fynarfin.connector.dmt.utility.getCameDirectEndpoint
+import io.fynarfin.connector.dmt.zeebe.worker.Worker
 import org.springframework.stereotype.Component
 
 @Component

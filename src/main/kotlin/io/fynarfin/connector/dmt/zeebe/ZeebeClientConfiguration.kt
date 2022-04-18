@@ -1,4 +1,4 @@
-package org.mifos.connector.dmt.zeebe
+package io.fynarfin.connector.dmt.zeebe
 
 import io.camunda.zeebe.client.ZeebeClient
 import org.springframework.beans.factory.annotation.Value

@@ -1,4 +1,4 @@
-package org.mifos.connector.dmt.zeebe.worker
+package io.fynarfin.connector.dmt.zeebe.worker
 
 import io.camunda.zeebe.client.ZeebeClient
 import org.springframework.beans.factory.annotation.Autowired
